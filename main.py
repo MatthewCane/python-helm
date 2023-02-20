@@ -1,4 +1,4 @@
-from python_helm.python_helm import Python_helm as Pyhelm
+from python_helm.python_helm import Python_helm
 
-pyhelm = Pyhelm
-print(pyhelm.version())
+helm = Python_helm()
+print(helm.version())
